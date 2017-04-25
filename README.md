@@ -18,12 +18,14 @@ content-type as 'application/json' and in body,
 pass a json object like this: 
 
 {
-	"Name": "HackSC", //hackathon name
+	"Name": "HackSC", 
 	"Applicant": { 
-		"email": "sangwoon@usc.edu", //student email
-		"name": "Ben Lee", //student full anme
-		"type": "Mentor" //student type 
+		"email": "sangwoon@usc.edu", 
+		"name": "Ben Lee", 
+		"type": "Mentor" 
 	}
 }
 
-Above is the example for HackSC case. 
+Inside above json object, Name is hackathnon name. Inside 
+applicant, name is student's full name, email is student's email, 
+and type is student's type e.g student/mentor. 
